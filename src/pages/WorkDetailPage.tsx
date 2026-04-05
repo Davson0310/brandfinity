@@ -18,7 +18,7 @@ const WorkDetailPage = () => {
     return (
       <div className="min-h-screen bg-background">
         <Header />
-        <main className="pt-24">
+        <main className="pt-36">
           <div className="container mx-auto px-4 py-20 text-center">
             <h1 className="text-3xl font-bold mb-4">Campaign Not Found</h1>
             <p className="text-muted-foreground mb-8">The campaign you're looking for doesn't exist.</p>
@@ -36,7 +36,7 @@ const WorkDetailPage = () => {
    return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="pt-24">
+      <main className="pt-36">
         {/* Hero Image */}
         <section
         className={`relative w-full overflow-hidden ${

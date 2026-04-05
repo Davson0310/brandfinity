@@ -63,21 +63,23 @@ export const Stats = () => {
     from-purple-500/10 
     via-indigo-500/10 
     to-background">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+      <div className="container mx-auto px-4 sm:px-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 max-w-6xl mx-auto">
           {stats.map((stat) => {
             const Icon = stat.icon;
             return (
-              <div key={stat.label} className="relative group">
-                <div className="bg-card rounded-2xl p-6 md:p-8 text-center border border-border/50 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-                  <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-primary/10 mb-4 group-hover:bg-primary/20 transition-colors">
-                    <Icon className="w-6 h-6 text-primary" />
+              <div key={stat.label} className="relative group min-w-0">
+                <div className="bg-card rounded-2xl p-5 sm:p-6 md:p-8 text-center border border-border/50 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+                  <div className="inline-flex items-center justify-center w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-primary/10 mb-3 sm:mb-4 group-hover:bg-primary/20 transition-colors shrink-0">
+                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
                   </div>
-                  <p className="text-3xl md:text-4xl font-bold gradient-text mb-1">
+                  <p className="text-2xl sm:text-3xl md:text-4xl font-bold gradient-text mb-1 tabular-nums">
                     <CountUp end={stat.value} />
                   </p>
-                  <p className="font-semibold text-foreground mb-1">{stat.label}</p>
-                  <p className="text-sm text-muted-foreground">{stat.description}</p>
+                  <p className="font-semibold text-foreground mb-1 text-sm sm:text-base leading-snug break-words px-0.5">
+                    {stat.label}
+                  </p>
+                  <p className="text-xs sm:text-sm text-muted-foreground leading-snug">{stat.description}</p>
                 </div>
               </div>
             );

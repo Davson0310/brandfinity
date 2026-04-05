@@ -75,7 +75,7 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="pt-24">
+      <main className="pt-36">
         {/* Hero Section */}
         <section className="section-padding pb-16 relative overflow-hidden">
            {/* Existing bubbles */}

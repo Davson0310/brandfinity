@@ -61,7 +61,7 @@ const CareersPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="pt-24">
+      <main className="pt-36">
         {/* Hero Section */}
         <section className="section-padding pb-16 relative overflow-hidden">
            {/* Existing bubbles */}
@@ -157,11 +157,7 @@ const CareersPage = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=hellobrandfinity@gmail.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="mailto:hellobrandfinity@gmail.com">
                         <Button
                           variant="outline"
                           className="shrink-0 group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary transition-all"
@@ -189,9 +185,7 @@ const CareersPage = () => {
                   <p className="text-lg text-primary-foreground/90 mb-8 max-w-xl mx-auto">
                     We're always looking for talented people. Send us your resume and we'll reach out when the right opportunity opens up.
                   </p>
-                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hellobrandfinity@gmail.com"
-                        target="_blank"
-                        rel="noopener noreferrer">
+                  <a href="mailto:hellobrandfinity@gmail.com">
                     <Button size="xl" className="bg-background text-foreground hover:bg-background/90">
                       Send Your Resume
                       <ArrowRight className="w-5 h-5" />

@@ -33,7 +33,7 @@ export const campaigns = [
     title: "Panasonic NA98 KOL Campaign",
     client: "Panasonic",
     category: "Panasonic",
-    year: "2025",
+    year: "2023",
     featured: false,
     image: na98,
     description:
@@ -265,7 +265,7 @@ export const campaigns = [
     title: "Panasonic Malaysia's Energy For Green Future – School Recycling Campaign 2.0",
     client: "Panasonic",
     category: "Panasonic",
-    year: "2024",
+    year: "2025",
     featured: true,
     image:school,
     description:"Panasonic Malaysia's 'Energy For Green Future – School Recycling Campaign 2.0' earned a spot in the Malaysia Book of Records for 'Most Batteries Recycled in a Single Event' (over 100,000 batteries from 30,000 students/20 schools). This campaign involved battery exchanges, educational workshops on safety/e-waste, and aimed to instill eco-conscious habits, aligning with Panasonic's larger Green Impact goals for sustainability.",

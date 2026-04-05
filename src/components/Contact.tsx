@@ -44,39 +44,22 @@ export const Contact = () => {
   };
 
   const handleSubmit = (e: React.FormEvent) => {
-  e.preventDefault();
+    e.preventDefault();
+    toast({
+      title: "Message Sent!",
+      description: "We'll get back to you within 24 hours.",
+    });
 
-  const { fullName, company, email, phone, services, message, referral } = formData;
-
-  let text = `*New Project Inquiry*\n`;
-  text += `Name: ${fullName}\n`;
-  if (company) text += `Company: ${company}\n`;
-  text += `Email: ${email}\n`;
-  if (phone) text += `Phone: ${phone}\n`;
-  if (services.length) text += `Services: ${services.join(", ")}\n`;
-  text += `Message: ${message}\n`;
-  if (referral) text += `Referral: ${referral}\n`;
-
-  const whatsappNumber = "601116739323"; 
-  const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
-
-  toast({
-    title: "Redirecting to WhatsApp",
-    description: "Your message is being prepared.",
-  });
-
-  window.open(url, "_blank");
-
-  setFormData({
-    fullName: "",
-    company: "",
-    email: "",
-    phone: "",
-    services: [],
-    message: "",
-    referral: "",
-  });
-};
+    setFormData({
+      fullName: "",
+      company: "",
+      email: "",
+      phone: "",
+      services: [],
+      message: "",
+      referral: "",
+    });
+  };
 
   return (
     <section id="contact" className="section-padding bg-muted/30">

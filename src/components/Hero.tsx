@@ -15,21 +15,32 @@ export const Hero = () => {
     document.body.style.overflow = revealed ? "auto" : "hidden";
   }, [revealed]);
 
-  /* scroll drives intro */
+  /* scroll, touch, or ↓ / Page Down drives intro */
   useEffect(() => {
     if (revealed) return;
 
-    const handleScroll = () => {
-      setStarted(true); // 🔑 first scroll activates hole
+    const step = () => {
+      setStarted(true);
       setProgress((prev) => Math.min(prev + 40, 400));
     };
 
-    window.addEventListener("wheel", handleScroll, { passive: true });
-    window.addEventListener("touchstart", handleScroll);
+    const handleWheel = () => step();
+    const handleTouch = () => step();
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "ArrowDown" || e.key === "PageDown") {
+        e.preventDefault();
+        step();
+      }
+    };
+
+    window.addEventListener("wheel", handleWheel, { passive: true });
+    window.addEventListener("touchstart", handleTouch);
+    window.addEventListener("keydown", handleKeyDown);
 
     return () => {
-      window.removeEventListener("wheel", handleScroll);
-      window.removeEventListener("touchstart", handleScroll);
+      window.removeEventListener("wheel", handleWheel);
+      window.removeEventListener("touchstart", handleTouch);
+      window.removeEventListener("keydown", handleKeyDown);
     };
   }, [revealed]);
 
@@ -143,8 +154,8 @@ export const Hero = () => {
 
           {/* SCROLL HINT */}
           {!started && (
-            <p className="absolute bottom-10 left-1/2 -translate-x-1/2 text-sm text-gray-400 animate-pulse">
-              Scroll to explore
+            <p className="absolute bottom-10 left-1/2 -translate-x-1/2 text-sm text-gray-400 animate-pulse text-center px-4">
+              Scroll or press <kbd className="px-1.5 py-0.5 rounded bg-white/10 font-sans text-xs">↓</kbd> to explore
             </p>
           )}
         </div>

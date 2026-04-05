@@ -71,7 +71,7 @@ const ServicesPage = () => {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="pt-24">
+      <main className="pt-36">
         {/* HERO */}
         <section className="section-padding pb-12 relative overflow-hidden">
           <div className="absolute top-20 right-0 w-[600px] h-[600px] rounded-full bg-coral-light blur-3xl opacity-50" />

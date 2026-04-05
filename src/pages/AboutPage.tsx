@@ -48,7 +48,7 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="pt-24">
+      <main className="pt-36">
         {/* Hero Section */}
         <section className="section-padding relative overflow-hidden">
           {/* Existing bubbles */}
@@ -77,22 +77,23 @@ const AboutPage = () => {
 
 
           {/* Stats Section */}
-          <section className="py-20 ">
-            <div className="container mx-auto px-4">
-            <div className="mx-auto flex justify-center">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto translate-x-16">
-              {stats.map((stat) => (
-            <div key={stat.label} className="text-center">
-              <p className="text-4xl md:text-5xl font-bold gradient-text mb-2">
-                <CountUp end={stat.value} />
-              </p>
-              <p className="text-muted-foreground font-medium">
-                {stat.label}
-              </p>
-            </div>
-              ))}
-            </div>
-            </div>
+          <section className="py-12 sm:py-16 md:py-20">
+            <div className="container mx-auto px-4 sm:px-5">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6 md:gap-10 max-w-4xl mx-auto">
+                {stats.map((stat) => (
+                  <div
+                    key={stat.label}
+                    className="text-center min-w-0 px-2 sm:px-1"
+                  >
+                    <p className="text-3xl sm:text-4xl md:text-5xl font-bold gradient-text mb-2 tabular-nums">
+                      <CountUp end={stat.value} />
+                    </p>
+                    <p className="text-muted-foreground font-medium text-sm sm:text-base leading-snug break-words hyphens-auto">
+                      {stat.label}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
           </section>
 
