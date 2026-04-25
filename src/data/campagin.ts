@@ -25,6 +25,11 @@ import img2 from "@/assets/ntx/IG - 02.jpeg"
 import img3 from "@/assets/ntx/IG - 03.jpeg"
 import img4 from "@/assets/ntx/IG - 04.jpeg"
 import img5 from "@/assets/ntx/IG - 05.jpeg"
+import technics from "@/assets/cover/technicscover.jpg"
+import washer from "@/assets/cover/washercover.png"
+import ginvera from "@/assets/cover/ginveracover.jpg"
+import ne6mcover from "@/assets/cover/ne6mcover.png"
+import palm from "@/assets/cover/palmcover.png"
 
 
 export const campaigns = [
@@ -480,180 +485,187 @@ export const campaigns = [
     ],
     youtube : "v0_8Sd012ow",
   },
-  // {
-  //   id: "panasonic-palm-shaver-kol-campaign",
-  //   title: "Panasonic Palm Shaver KOL Campaign",
-  //   client: "Panasonic",
-  //   category: "Panasonic",
-  //   year: "2024",
-  //   featured: false,
-  //   image: "", // add your cover photo URL here
-  //   description:
-  //     "Panasonic partnered with Brandfinity to introduce the Panasonic Palm Shaver through a targeted KOL campaign centered on modern grooming needs and everyday convenience. A curated group of mid-tier couple KOLs shared authentic lifestyle-driven content, showcasing real-life shaving routines at home and on the go. Through natural couple interactions and relatable daily scenarios, the content demonstrated how the Palm Shaver delivers a quick, comfortable, and efficient shaving experience while fitting seamlessly into contemporary lifestyles.",
-  //   objective: [
-  //     "Amplify Awareness: Increase visibility of the Panasonic Palm Shaver through strategic influencer exposure across social platforms.",
-  //     "Educate Consumers: Highlight the Palm Shaver’s compact design, ergonomic grip, portability, and ease of use through realistic grooming demonstrations.",
-  //     "Encourage Consideration: Build consumer confidence by showcasing practical usage, close-up shaving results, and everyday grooming convenience.",
-  //   ],
-  //   keyActivities:
-  //     "Brandfinity executed a focused multi-platform influencer activation by engaging mid-tier KOLs across three key lifestyle moments. Couple KOLs were activated for Valentine’s Day content, highlighting grooming as part of shared routines and personal care moments. Male KOLs with travel and working lifestyles were engaged for Raya-related content, showcasing the Panasonic Palm Shaver as a convenient grooming companion for work, travel, and festive preparation. Additionally, family-oriented KOLs featuring father–son or father–daughter dynamics were activated for Father’s Day, emphasizing everyday grooming through relatable family moments. Across all content, hands-on demonstrations, close-up results, and natural storytelling highlighted the Palm Shaver’s precision, comfort, and suitability for modern men seeking a convenient grooming solution.",
-  //   achievement:
-  //     "Driven by mid-tier KOLs across Instagram and TikTok, the campaign achieved a total reach of 862,597. The authentic, lifestyle-led approach effectively expanded brand exposure and set a strong benchmark for influencer-led male grooming campaigns within the premium personal care category.",
-  //   impact:
-  //     "By leveraging relatable couple-led storytelling and practical product demonstrations, the campaign strengthened Panasonic’s presence in the male grooming segment, enhanced brand relevance among modern consumers, and increased consideration of the Panasonic Palm Shaver as a compact, efficient, and lifestyle-oriented grooming solution.",
-  //   vimeo: [
-  //     { src: "1156100557", orientation: "vertical" },
-  //     { src: "1156100361", orientation: "vertical" },
-  //     { src: "1156100449", orientation: "vertical" },
-  //     { src: "1156100809", orientation: "vertical" },
-  //     { src: "1156101190", orientation: "vertical" },
-  //     { src: "1156101407", orientation: "vertical" },
-  //     { src: "1156101289", orientation: "vertical" },
-  //     { src: "1156101535", orientation: "vertical" },
-  //     { src: "1156101710", orientation: "vertical" },
-  //     { src: "1156101636", orientation: "vertical" },
-  //     { src: "1156101794", orientation: "vertical" },
-  //     { src: "1156100964", orientation: "vertical" },
-  //   ],
-  // },
+  {
+    id: "panasonic-palm-shaver-kol-campaign",
+    title: "Panasonic Palm Shaver KOL Campaign",
+    client: "Panasonic",
+    category: "Panasonic",
+    year: "2025",
+    featured: false,
+    image: palm, 
+    description:
+      "Panasonic partnered with Brandfinity to introduce the Panasonic Palm Shaver through a targeted KOL campaign centered on modern grooming needs and everyday convenience. A curated group of mid-tier couple KOLs shared authentic lifestyle-driven content, showcasing real-life shaving routines at home and on the go. Through natural couple interactions and relatable daily scenarios, the content demonstrated how the Palm Shaver delivers a quick, comfortable, and efficient shaving experience while fitting seamlessly into contemporary lifestyles.",
+    objective: [
+      "Amplify Awareness: Increase visibility of the Panasonic Palm Shaver through strategic influencer exposure across social platforms.",
+      "Educate Consumers: Highlight the Palm Shaver’s compact design, ergonomic grip, portability, and ease of use through realistic grooming demonstrations.",
+      "Encourage Consideration: Build consumer confidence by showcasing practical usage, close-up shaving results, and everyday grooming convenience.",
+    ],
+    keyActivities:
+      "Brandfinity executed a focused multi-platform influencer activation by engaging mid-tier KOLs across three key lifestyle moments. Couple KOLs were activated for Valentine’s Day content, highlighting grooming as part of shared routines and personal care moments. Male KOLs with travel and working lifestyles were engaged for Raya-related content, showcasing the Panasonic Palm Shaver as a convenient grooming companion for work, travel, and festive preparation. Additionally, family-oriented KOLs featuring father–son or father–daughter dynamics were activated for Father’s Day, emphasizing everyday grooming through relatable family moments. Across all content, hands-on demonstrations, close-up results, and natural storytelling highlighted the Palm Shaver’s precision, comfort, and suitability for modern men seeking a convenient grooming solution.",
+    achievement:
+      "Driven by mid-tier KOLs across Instagram and TikTok, the campaign achieved a total reach of 862,597. The authentic, lifestyle-led approach effectively expanded brand exposure and set a strong benchmark for influencer-led male grooming campaigns within the premium personal care category.",
+    impact:
+      "By leveraging relatable couple-led storytelling and practical product demonstrations, the campaign strengthened Panasonic’s presence in the male grooming segment, enhanced brand relevance among modern consumers, and increased consideration of the Panasonic Palm Shaver as a compact, efficient, and lifestyle-oriented grooming solution.",
+    vimeo: [
+      { src: "1156100557", orientation: "vertical" },
+      { src: "1156100361", orientation: "vertical" },
+      { src: "1156100449", orientation: "vertical" },
+      { src: "1156100809", orientation: "vertical" },
+      { src: "1156101190", orientation: "vertical" },
+      { src: "1156101407", orientation: "vertical" },
+      { src: "1156101289", orientation: "vertical" },
+      { src: "1156101535", orientation: "vertical" },
+      { src: "1156101710", orientation: "vertical" },
+      { src: "1156101636", orientation: "vertical" },
+      { src: "1156101794", orientation: "vertical" },
+      { src: "1156100964", orientation: "vertical" },
+    ],
+  },
 
-  // {
-  //   id: "panasonic-ne6m-kol-campaign",
-  //   title: "Panasonic NE6M KOL Campaign",
-  //   client: "Panasonic",
-  //   category: "Panasonic",
-  //   year: "2024",
-  //   featured: false,
-  //   image: "", // add your cover photo URL here
-  //   description:
-  //     "Panasonic partnered with Brandfinity to introduce the Panasonic NE6M through a large-scale UGC and nano KOL campaign focused on everyday hair care experiences. By activating a community of real users and nano creators, the campaign showcased authentic hair drying routines in natural, relatable settings such as post-shower care, morning preparations, and quick styling before outings. The content emphasized how the NE6M delivers efficient drying and gentle performance that fits seamlessly into daily life.",
-  //   objective: [
-  //     "Amplify Awareness: Increase visibility of the Panasonic NE6M through high-volume UGC and nano KOL content across social platforms.",
-  //     "Educate Consumers: Highlight the NE6M’s fast drying capability, gentle airflow, and ease of use through real-user demonstrations.",
-  //     "Encourage Consideration: Build trust and relatability by showcasing genuine usage experiences and visible hair results.",
-  //   ],
-  //   keyActivities:
-  //     "Brandfinity executed a UGC-driven activation by engaging 65 UGC creators and nano KOLs across Instagram and TikTok. Creators produced authentic, first-person content featuring daily hair care moments such as after-shower drying, morning routines, and quick styling before work or school. Through natural filming styles, close-up results, and honest usage demonstrations, the content reinforced the Panasonic NE6M as a practical and reliable hair dryer for everyday use.",
-  //   achievement:
-  //     "Driven by 65 UGC creators and nano KOLs across Instagram, TikTok, and Xiaohongshu (XHS), the campaign achieved a total reach of 2,253,829. The volume-led creator strategy successfully expanded brand exposure while maintaining authenticity and strong audience relatability.",
-  //   impact:
-  //     "By leveraging high-volume UGC and nano KOL advocacy, the campaign strengthened Panasonic’s presence in the everyday hair care category, enhanced brand relevance among real consumers, and increased consideration of the Panasonic NE6M as an accessible, dependable hair dryer for daily hair routines.",
-  //   vimeo: [
-  //     { src: "1156127026", orientation: "vertical" },
-  //     { src: "1156116690", orientation: "vertical" },
-  //     { src: "1156126944", orientation: "vertical" },
-  //     { src: "1156126902", orientation: "vertical" },
-  //     { src: "1156126801", orientation: "vertical" },
-  //     { src: "1156117591", orientation: "vertical" },
-  //     { src: "1156117546", orientation: "vertical" },
-  //     { src: "1156117459", orientation: "vertical" },
-  //     { src: "1156117427", orientation: "vertical" },
-  //     { src: "1156117383", orientation: "vertical" },
-  //     { src: "1156117345", orientation: "vertical" },
-  //     { src: "1156117267", orientation: "vertical" },
-  //     { src: "1156117226", orientation: "vertical" },
-  //     { src: "1156117199", orientation: "vertical" },
-  //     { src: "1156117150", orientation: "vertical" },
-  //     { src: "1156117115", orientation: "vertical" },
-  //     { src: "1156117086", orientation: "vertical" },
-  //     { src: "1156117052", orientation: "vertical" },
-  //     { src: "1156117010", orientation: "vertical" },
-  //     { src: "1156116977", orientation: "vertical" },
-  //     { src: "1156116928", orientation: "vertical" },
-  //     { src: "1156116882", orientation: "vertical" },
-  //     { src: "1156116848", orientation: "vertical" },
-  //     { src: "1156116807", orientation: "vertical" },
-  //     { src: "1156116762", orientation: "vertical" },
-  //     { src: "1156116473", orientation: "vertical" },
-  //     { src: "1156116438", orientation: "vertical" },
-  //     { src: "1156116394", orientation: "vertical" },
-  //     { src: "1156116360", orientation: "vertical" },
-  //     { src: "1156116327", orientation: "vertical" },
-  //   ],
-  // },
-  // {
-  //   id: "panasonic-washer-dryer-kol-campaign",
-  //   title: "Panasonic Washer & Dryer KOL Campaign",
-  //   client: "Panasonic",
-  //   category: "Panasonic",
-  //   year: "2024",
-  //   featured: false,
-  //   image: "", 
-  //   description:
-  //     "Panasonic partnered with Brandfinity to introduce the Panasonic Washer & Dryer through a strategic KOL campaign focused on modern laundry solutions and everyday household convenience. Led by renowned Malaysian artist Wany Hasrita and popular Malay community KOL Durian Kimchi, the campaign highlighted real-life laundry routines in family homes and busy lifestyles. Through relatable storytelling and practical demonstrations, the content showcased how Panasonic’s Washer & Dryer delivers efficient cleaning, fabric care, and time-saving convenience that fits seamlessly into daily living.",
-  //   objective: [
-  //     "Amplify Awareness: Increase visibility of the Panasonic Washer & Dryer through high-impact celebrity and KOL exposure across social platforms.",
-  //     "Educate Consumers: Highlight key product benefits such as powerful washing performance, gentle fabric care, and efficient drying through real-life usage demonstrations.",
-  //     "Encourage Consideration: Build trust and confidence by showcasing practical laundry scenarios, visible results, and everyday household convenience.",
-  //   ],
-  //   keyActivities:
-  //     "Brandfinity executed a structured influencer activation led by celebrity artist Wany Hasrita and prominent Malay community KOL Durian Kimchi, supported by 10 nano to mid-tier KOLs across TikTok. Hero content from the lead creators focused on full laundry journeys, including sorting clothes, washing, drying, and daily household routines, positioning the Panasonic Washer & Dryer as an essential home appliance for modern families. Supporting KOLs amplified the campaign through authentic, lifestyle-led content such as weekly laundry days, family care moments, and time-saving routines, reinforcing product reliability, efficiency, and ease of use across diverse household needs.",
-  //   achievement:
-  //     "Driven by celebrity-led storytelling and supported by 10 nano to mid-tier KOLs across TikTok, the campaign achieved a total reach of 1,356,563. The layered influencer strategy effectively expanded brand visibility while maintaining strong cultural relevance within the Malay community.",
-  //   impact:
-  //     "By combining celebrity credibility with relatable KOL advocacy, the campaign strengthened Panasonic’s positioning in the home laundry appliance category, enhanced brand relevance among Malaysian households, and increased consideration of the Panasonic Washer & Dryer as a reliable, efficient, and lifestyle-driven laundry solution.",
-  //   vimeo: [
-  //     { src: "YOUR_VIMEO_ID_1", orientation: "horizontal" },
-  //     { src: "YOUR_VIMEO_ID_2", orientation: "vertical" },
-  //   ],
-  // },
+  {
+    id: "panasonic-ne6m-kol-campaign",
+    title: "Panasonic NE6M KOL Campaign",
+    client: "Panasonic",
+    category: "Panasonic",
+    year: "2025",
+    featured: false,
+    image: ne6mcover, 
+    description:
+      "Panasonic partnered with Brandfinity to introduce the Panasonic NE6M through a large-scale UGC and nano KOL campaign focused on everyday hair care experiences. By activating a community of real users and nano creators, the campaign showcased authentic hair drying routines in natural, relatable settings such as post-shower care, morning preparations, and quick styling before outings. The content emphasized how the NE6M delivers efficient drying and gentle performance that fits seamlessly into daily life.",
+    objective: [
+      "Amplify Awareness: Increase visibility of the Panasonic NE6M through high-volume UGC and nano KOL content across social platforms.",
+      "Educate Consumers: Highlight the NE6M’s fast drying capability, gentle airflow, and ease of use through real-user demonstrations.",
+      "Encourage Consideration: Build trust and relatability by showcasing genuine usage experiences and visible hair results.",
+    ],
+    keyActivities:
+      "Brandfinity executed a UGC-driven activation by engaging 65 UGC creators and nano KOLs across Instagram and TikTok. Creators produced authentic, first-person content featuring daily hair care moments such as after-shower drying, morning routines, and quick styling before work or school. Through natural filming styles, close-up results, and honest usage demonstrations, the content reinforced the Panasonic NE6M as a practical and reliable hair dryer for everyday use.",
+    achievement:
+      "Driven by 65 UGC creators and nano KOLs across Instagram, TikTok, and Xiaohongshu (XHS), the campaign achieved a total reach of 2,253,829. The volume-led creator strategy successfully expanded brand exposure while maintaining authenticity and strong audience relatability.",
+    impact:
+      "By leveraging high-volume UGC and nano KOL advocacy, the campaign strengthened Panasonic’s presence in the everyday hair care category, enhanced brand relevance among real consumers, and increased consideration of the Panasonic NE6M as an accessible, dependable hair dryer for daily hair routines.",
+    vimeo: [
+      { src: "1156127026", orientation: "vertical" },
+      { src: "1156116690", orientation: "vertical" },
+      { src: "1156126944", orientation: "vertical" },
+      { src: "1156126902", orientation: "vertical" },
+      { src: "1156126801", orientation: "vertical" },
+      { src: "1156117591", orientation: "vertical" },
+      { src: "1156117546", orientation: "vertical" },
+      { src: "1156117459", orientation: "vertical" },
+      { src: "1156117427", orientation: "vertical" },
+      { src: "1156117383", orientation: "vertical" },
+      { src: "1156117345", orientation: "vertical" },
+      { src: "1156117267", orientation: "vertical" },
+      { src: "1156117226", orientation: "vertical" },
+      { src: "1156117199", orientation: "vertical" },
+      { src: "1156117150", orientation: "vertical" },
+      { src: "1156117115", orientation: "vertical" },
+      { src: "1156117086", orientation: "vertical" },
+      { src: "1156117052", orientation: "vertical" },
+      { src: "1156117010", orientation: "vertical" },
+      { src: "1156116977", orientation: "vertical" },
+      { src: "1156116928", orientation: "vertical" },
+      { src: "1156116882", orientation: "vertical" },
+      { src: "1156116848", orientation: "vertical" },
+      { src: "1156116807", orientation: "vertical" },
+      { src: "1156116762", orientation: "vertical" },
+      { src: "1156116473", orientation: "vertical" },
+      { src: "1156116438", orientation: "vertical" },
+      { src: "1156116394", orientation: "vertical" },
+      { src: "1156116360", orientation: "vertical" },
+      { src: "1156116327", orientation: "vertical" },
+    ],
+  },
+  {
+    id: "panasonic-washer-dryer-kol-campaign",
+    title: "Panasonic Washer & Dryer KOL Campaign",
+    client: "Panasonic",
+    category: "Panasonic",
+    year: "2024",
+    featured: false,
+    image: washer, 
+    description:
+      "Panasonic partnered with Brandfinity to introduce the Panasonic Washer & Dryer through a strategic KOL campaign focused on modern laundry solutions and everyday household convenience. Led by renowned Malaysian artist Wany Hasrita and popular Malay community KOL Durian Kimchi, the campaign highlighted real-life laundry routines in family homes and busy lifestyles. Through relatable storytelling and practical demonstrations, the content showcased how Panasonic’s Washer & Dryer delivers efficient cleaning, fabric care, and time-saving convenience that fits seamlessly into daily living.",
+    objective: [
+      "Amplify Awareness: Increase visibility of the Panasonic Washer & Dryer through high-impact celebrity and KOL exposure across social platforms.",
+      "Educate Consumers: Highlight key product benefits such as powerful washing performance, gentle fabric care, and efficient drying through real-life usage demonstrations.",
+      "Encourage Consideration: Build trust and confidence by showcasing practical laundry scenarios, visible results, and everyday household convenience.",
+    ],
+    keyActivities:
+      "Brandfinity executed a structured influencer activation led by celebrity artist Wany Hasrita and prominent Malay community KOL Durian Kimchi, supported by 10 nano to mid-tier KOLs across TikTok. Hero content from the lead creators focused on full laundry journeys, including sorting clothes, washing, drying, and daily household routines, positioning the Panasonic Washer & Dryer as an essential home appliance for modern families. Supporting KOLs amplified the campaign through authentic, lifestyle-led content such as weekly laundry days, family care moments, and time-saving routines, reinforcing product reliability, efficiency, and ease of use across diverse household needs.",
+    achievement:
+      "Driven by celebrity-led storytelling and supported by 10 nano to mid-tier KOLs across TikTok, the campaign achieved a total reach of 1,356,563. The layered influencer strategy effectively expanded brand visibility while maintaining strong cultural relevance within the Malay community.",
+    impact:
+      "By combining celebrity credibility with relatable KOL advocacy, the campaign strengthened Panasonic’s positioning in the home laundry appliance category, enhanced brand relevance among Malaysian households, and increased consideration of the Panasonic Washer & Dryer as a reliable, efficient, and lifestyle-driven laundry solution.",
+    vimeo: [
+      { src: "1185117030", orientation: "vertical" },
+      { src: "1185117000", orientation: "vertical" },
+      { src: "1185117097", orientation: "vertical" },
+      { src: "1185117049", orientation: "vertical" },
+      { src: "1185117072", orientation: "vertical" },
+      { src: "1185116908", orientation: "vertical" },
+      { src: "1185116959", orientation: "vertical" },
+      { src: "1185116115", orientation: "vertical" },
+      { src: "1185116090", orientation: "vertical" },
+    ],
+  },
 
-  // {
-  //   id: "panasonic-technics-az-ugc-campaign",
-  //   title: "Panasonic Technics AZ40, AZ60 & AZ80 UGC Campaign",
-  //   client: "Panasonic Technics",
-  //   category: "Panasonic",
-  //   year: "2024",
-  //   featured: false,
-  //   image: "", 
-  //   description:
-  //     "Panasonic partnered with Brandfinity to introduce the Technics AZ40, AZ60, and AZ80 True Wireless Earbuds through a large-scale UGC-driven campaign focused on immersive audio experiences for modern, on-the-go lifestyles. By engaging everyday users and creators, the campaign showcased authentic listening moments — from commuting and workouts to work-from-home routines and leisure time — highlighting how Technics earbuds deliver premium sound quality, comfort, and seamless connectivity that integrate effortlessly into daily life.",
-  //   objective: [
-  //     "Amplify Awareness: Increase visibility of the Technics AZ40, AZ60, and AZ80 through high-volume UGC exposure across social platforms.",
-  //     "Educate Consumers: Highlight key product benefits including premium sound quality, noise cancellation (AZ60 & AZ80), all-day comfort, and stable connectivity through real-life usage scenarios.",
-  //     "Encourage Consideration: Build trust and confidence by showcasing authentic user experiences, close-up product usage, and everyday listening benefits.",
-  //   ],
-  //   keyActivities:
-  //     "Brandfinity executed a UGC-led activation by engaging over 200 KOCs, with each creator producing two short-form videos across TikTok, Instagram, and XiaoHongShu (XHS). Content focused on real-life listening scenarios such as commuting, workouts, work-from-home sessions, study time, and daily entertainment. Through casual storytelling, POV-style content, and sound-focused demonstrations, creators highlighted how the Technics AZ40, AZ60, and AZ80 enhance everyday audio experiences with clarity, comfort, and reliability.",
-  //   achievement:
-  //     "Driven by high-volume UGC participation and supported by nano to mid-tier KOLs across TikTok, Instagram, and XiaoHongShu (XHS), the campaign achieved a total reach of 2,365,785, successfully expanding brand visibility while reinforcing Technics’ positioning as a premium yet lifestyle-relevant audio brand.",
-  //   impact:
-  //     "By leveraging authentic user voices at scale, the campaign strengthened Panasonic Technics’ presence in the true wireless audio category, enhanced brand relevance within everyday lifestyle moments, and increased consideration of the Technics AZ40, AZ60, and AZ80 as reliable, high-performance earbuds designed for modern listening needs.",
-  //   vimeo:[
-  //     { src: "1159624095", orientation: "vertical" },
-  //     { src: "1159624064", orientation: "vertical" },
-  //     { src: "1159624013", orientation: "vertical" },
-  //     { src: "1159627147", orientation: "vertical" },
-  //     { src: "1159627201", orientation: "vertical" },
-  //   ]
-  // },
+  {
+    id: "panasonic-technics-az-ugc-campaign",
+    title: "Panasonic Technics AZ40, AZ60 & AZ80 UGC Campaign",
+    client: "Panasonic Technics",
+    category: "Panasonic",
+    year: "2023",
+    featured: false,
+    image: technics, 
+    description:
+      "Panasonic partnered with Brandfinity to introduce the Technics AZ40, AZ60, and AZ80 True Wireless Earbuds through a large-scale UGC-driven campaign focused on immersive audio experiences for modern, on-the-go lifestyles. By engaging everyday users and creators, the campaign showcased authentic listening moments — from commuting and workouts to work-from-home routines and leisure time — highlighting how Technics earbuds deliver premium sound quality, comfort, and seamless connectivity that integrate effortlessly into daily life.",
+    objective: [
+      "Amplify Awareness: Increase visibility of the Technics AZ40, AZ60, and AZ80 through high-volume UGC exposure across social platforms.",
+      "Educate Consumers: Highlight key product benefits including premium sound quality, noise cancellation (AZ60 & AZ80), all-day comfort, and stable connectivity through real-life usage scenarios.",
+      "Encourage Consideration: Build trust and confidence by showcasing authentic user experiences, close-up product usage, and everyday listening benefits.",
+    ],
+    keyActivities:
+      "Brandfinity executed a UGC-led activation by engaging over 200 KOCs, with each creator producing two short-form videos across TikTok, Instagram, and XiaoHongShu (XHS). Content focused on real-life listening scenarios such as commuting, workouts, work-from-home sessions, study time, and daily entertainment. Through casual storytelling, POV-style content, and sound-focused demonstrations, creators highlighted how the Technics AZ40, AZ60, and AZ80 enhance everyday audio experiences with clarity, comfort, and reliability.",
+    achievement:
+      "Driven by high-volume UGC participation and supported by nano to mid-tier KOLs across TikTok, Instagram, and XiaoHongShu (XHS), the campaign achieved a total reach of 2,365,785, successfully expanding brand visibility while reinforcing Technics’ positioning as a premium yet lifestyle-relevant audio brand.",
+    impact:
+      "By leveraging authentic user voices at scale, the campaign strengthened Panasonic Technics’ presence in the true wireless audio category, enhanced brand relevance within everyday lifestyle moments, and increased consideration of the Technics AZ40, AZ60, and AZ80 as reliable, high-performance earbuds designed for modern listening needs.",
+    vimeo:[
+      { src: "1159624095", orientation: "vertical" },
+      { src: "1159624064", orientation: "vertical" },
+      { src: "1159624013", orientation: "vertical" },
+      { src: "1159627147", orientation: "vertical" },
+      { src: "1159627201", orientation: "vertical" },
+    ]
+  },
 
-  // {
-  //   id: "ginvera-kol-tiktok-campaign",
-  //   title: "Ginvera KOL TikTok Campaign",
-  //   client: "Ginvera",
-  //   category: "Skincare",
-  //   year: "2024",
-  //   featured: false,
-  //   image: "", 
-  //   description:
-  //     "Ginvera partnered with Brandfinity to execute a KOL-driven TikTok campaign aimed at strengthening brand relevance among modern, skincare-conscious consumers. Through authentic, lifestyle-led storytelling, creators shared real-life skincare moments — from morning and night routines to post-work cleansing and self-care rituals — demonstrating how Ginvera’s skincare solutions support healthy, clear skin and fit seamlessly into daily routines.",
-  //   objective: [
-  //     "Amplify Awareness: Increase visibility of Ginvera through high-impact KOL exposure on TikTok.",
-  //     "Educate Consumers: Highlight key product benefits such as gentle cleansing, skin-soothing properties, and suitability for daily use through real-life skincare routines.",
-  //     "Encourage Consideration: Build trust and confidence by showcasing authentic user experiences, texture shots, application moments, and visible skin results.",
-  //   ],
-  //   keyActivities:
-  //     "Brandfinity collaborated with Ain Edrucé, Fatehah Teargh, and Sylvia Good to deliver authentic skincare storytelling on TikTok. Content focused on everyday skincare scenarios including morning cleansing routines, post-makeup removal, and evening self-care moments, reinforcing Ginvera’s positioning as an accessible and effective everyday skincare brand.",
-  //   achievement:
-  //     "Led by three key KOLs on TikTok, the campaign achieved a total reach of 532,812, effectively expanding Ginvera’s brand visibility and engagement among younger, skincare-conscious audiences.",
-  //   impact:
-  //     "By leveraging trusted KOL advocacy and relatable skincare demonstrations, the campaign strengthened Ginvera’s presence in the skincare category, enhanced brand relevance within everyday self-care moments, and increased consideration of Ginvera as a trusted skincare solution for daily cleansing and skin maintenance.",
-  //   vimeo :[
-  //     { src: "1159627651", orientation: "vertical" },
-  //     { src: "1159627569", orientation: "vertical" },
-  //     { src: "1159627436", orientation: "vertical" },
-  //   ]
-  // }
+  {
+    id: "ginvera-kol-tiktok-campaign",
+    title: "Ginvera KOL TikTok Campaign",
+    client: "Ginvera",
+    category: "Skincare",
+    year: "2024",
+    featured: false,
+    image: ginvera, 
+    description:
+      "Ginvera partnered with Brandfinity to execute a KOL-driven TikTok campaign aimed at strengthening brand relevance among modern, skincare-conscious consumers. Through authentic, lifestyle-led storytelling, creators shared real-life skincare moments — from morning and night routines to post-work cleansing and self-care rituals — demonstrating how Ginvera’s skincare solutions support healthy, clear skin and fit seamlessly into daily routines.",
+    objective: [
+      "Amplify Awareness: Increase visibility of Ginvera through high-impact KOL exposure on TikTok.",
+      "Educate Consumers: Highlight key product benefits such as gentle cleansing, skin-soothing properties, and suitability for daily use through real-life skincare routines.",
+      "Encourage Consideration: Build trust and confidence by showcasing authentic user experiences, texture shots, application moments, and visible skin results.",
+    ],
+    keyActivities:
+      "Brandfinity collaborated with Ain Edrucé, Fatehah Teargh, and Sylvia Good to deliver authentic skincare storytelling on TikTok. Content focused on everyday skincare scenarios including morning cleansing routines, post-makeup removal, and evening self-care moments, reinforcing Ginvera’s positioning as an accessible and effective everyday skincare brand.",
+    achievement:
+      "Led by three key KOLs on TikTok, the campaign achieved a total reach of 532,812, effectively expanding Ginvera’s brand visibility and engagement among younger, skincare-conscious audiences.",
+    impact:
+      "By leveraging trusted KOL advocacy and relatable skincare demonstrations, the campaign strengthened Ginvera’s presence in the skincare category, enhanced brand relevance within everyday self-care moments, and increased consideration of Ginvera as a trusted skincare solution for daily cleansing and skin maintenance.",
+    vimeo :[
+      { src: "1159627651", orientation: "vertical" },
+      { src: "1159627569", orientation: "vertical" },
+      { src: "1159627436", orientation: "vertical" },
+    ]
+  }
 
 ];

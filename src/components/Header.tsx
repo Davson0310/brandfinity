@@ -17,12 +17,12 @@ export const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 glass">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-24 md:h-28 lg:h-36">
+        <div className="flex items-center justify-between h-20 md:h-24 lg:h-28">
           <Link to="/" className="flex items-center gap-2 shrink-0">
             <img
               src={logo}
               alt="Company Logo"
-              className="h-20 md:h-24 lg:h-32 w-auto transition-all duration-300"
+              className="h-20 md:h-24 lg:h-28 w-auto scale-[1.8] origin-left transition-all duration-300"
             />
           </Link>
 

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Linkedin, Instagram, Facebook } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const footerLinks = {
   company: [
@@ -15,39 +16,49 @@ const footerLinks = {
 
 const socialLinks = [
   { icon: Linkedin, href: "https://www.linkedin.com/company/brandfinity-sdn-bhd/posts/?feedView=all", label: "LinkedIn" },
-  { icon: Facebook, href: "https://www.facebook.com/hello.brandfinity", label: "GitHub" },
+  { icon: Facebook, href: "https://www.facebook.com/hello.brandfinity", label: "Facebook" },
   { icon: Instagram, href: "https://www.instagram.com/brandfinity_my?igsh=MWNnZ2p0d3J0ZWM5bw==", label: "Instagram" },
 ];
 
 export const Footer = () => {
   return (
-    <footer className="bg-foreground text-background">
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-4 gap-12">
+    <footer className="bg-gradient-to-b from-foreground to-[#0b0f1b] text-background">
+      <div className="container mx-auto px-4 py-16 md:py-20">
+        <div className="grid md:grid-cols-4 gap-12 md:gap-10 items-start">
           <div className="md:col-span-2">
-            <Link to="/" className="text-2xl font-bold gradient-text">
-              Brandfinity
-            </Link>
-            <p className="mt-4 text-background/70 max-w-md">
-              Transforming brands through innovative marketing solutions. 
-              We're committed to delivering excellence in every campaign.
-            </p>
-            <div className="flex gap-4 mt-6">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  aria-label={social.label}
-                  className="w-10 h-10 rounded-lg bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors"
-                >
-                  <social.icon className="w-5 h-5" />
-                </a>
-              ))}
+            <div className="flex flex-col md:flex-row md:items-start gap-5 md:gap-6">
+              <div className="inline-flex flex-col items-center">
+                <Link to="/" className="inline-flex items-center justify-center rounded-2xl bg-white/95 p-0 shadow-lg shadow-black/20">
+                  <img
+                    src={logo}
+                    alt="Brandfinity logo"
+                    className="h-40 md:h-44 w-auto"
+                  />
+                </Link>
+              </div>
+              <div>
+                <p className="text-background/75 max-w-sm text-lg leading-relaxed md:pt-1">
+                  Transforming brands through innovative marketing solutions.
+                  We're committed to delivering excellence in every campaign.
+                </p>
+                <div className="flex gap-3 mt-7">
+                  {socialLinks.map((social) => (
+                    <a
+                      key={social.label}
+                      href={social.href}
+                      aria-label={social.label}
+                      className="w-11 h-11 rounded-xl border border-white/10 bg-white/5 flex items-center justify-center hover:bg-white/15 hover:border-white/20 transition-colors"
+                    >
+                      <social.icon className="w-5 h-5" />
+                    </a>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4 text-base">Company</h4>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
@@ -63,7 +74,7 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Support</h4>
+            <h4 className="font-semibold mb-4 text-base">Support</h4>
             <ul className="space-y-3">
               {footerLinks.support.map((link) => (
                 <li key={link.name}>
@@ -79,7 +90,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-background/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/60 text-sm">
             © {new Date().getFullYear()} Brandfinity. All rights reserved.
           </p>
