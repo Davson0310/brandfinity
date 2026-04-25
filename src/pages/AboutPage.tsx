@@ -2,7 +2,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Users, Target, Award, Heart, Rocket, Globe, Sparkles, TrendingUp } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-
+import photo from "@/assets/about_photo.webp"
 const stats = [
   { value: 1000, label: "Successful Campaigns" },
   { value: 150, label: "Clients" },
@@ -129,17 +129,10 @@ const AboutPage = () => {
                   </div>
                 </div>
                 <div className="relative">
-                  <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+                  <div className="aspect-[15/9] rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                      src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop&q=80" 
+                      src= {photo}
                       alt="Our team at work"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="absolute -bottom-6 -left-6 w-48 h-48 rounded-xl overflow-hidden shadow-xl border-4 border-background">
-                    <img 
-                      src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&auto=format&fit=crop&q=80" 
-                      alt="Team collaboration"
                       className="w-full h-full object-cover"
                     />
                   </div>
